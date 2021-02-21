@@ -6,12 +6,12 @@ public class SampleSwing {
     public static void main(String[] args) {
         JFrame f=new JFrame();//creating instance of JFrame
 
-        JButton b=new JButton("click here ");//creating instance of JButton
-        b.setBounds(130,100,100, 40);//x axis, y axis, width, height
+        JButton b=new JButton("Hey all !! ");//creating instance of JButton
+        b.setBounds(30,100,500, 40);//x axis, y axis, width, height
 
         f.add(b);//adding button in JFrame
 
-        f.setSize(400,500);//400 width and 500 height
+        f.setSize(1000,1000);//400 width and 500 height
         f.setLayout(null);//using no layout managers
         f.setVisible(true);//making the frame visible
     }
